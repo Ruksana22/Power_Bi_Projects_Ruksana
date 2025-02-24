@@ -2,11 +2,13 @@
 Problem Statement
 Market fluctuations and rapid technological advancements have significantly impacted the global market. Numerous reports indicate that approximately half of employees are considering changing jobs. While many market analysts highlight flexible working arrangements and job security as the key factors, only a few employees cite higher salaries as their primary goal.
 Across various regions, salary trends have shown both increases and decreases over the years. Salary hikes were mainly intended to retain top-level professionals, while salary cuts were implemented due to market fluctuations but were reversed once market conditions improved. HR professionals worldwide are focused on recruiting new talent, retaining existing employees, and understanding the reasons behind employee separations.
+
 Tools
 Tools used for Data Cleaning, Data Analysis and Report generation:
     •	Excel
     •	PowerBI
     •	PowerBI Service
+
 Data Cleaning
 In the initial data preparation phase, I performed the following tasks:
     •	Data loading and inspection,
@@ -53,6 +55,7 @@ Things done in this project:
     •	Leave Balance Analysis: Review leave balances, especially focusing on those exceeding 20 days.
     •	HR Dashboard: Design a HR dashboard to consolidate and visualize key metrics.
 Insights
+
 1. Employee Statistics
     Total Number of Employees Over Time:
     •	2017: 1 employee
@@ -114,10 +117,7 @@ Recommendations
     Based on the analysis, I recommend the following actions:
     •	The company must focus on West and North regions for employee retention. Management can look into deploying some new measures, programs, perks or benefits for existing employees to ensure they will not leave the company.
     •	Implement a strategy to retain talented employees who will be an asset to a company.
-    Conclusion
-    The workforce has grown significantly from 2017 to 2023, reflecting the company’s expansion. There is a higher number of female employees compared to males, with notable role variations, Packaging Associates being the largest group and Marketing roles the smallest. Employees aged 30 are the largest age group for both genders. Salary analysis shows that Product Managers earn the highest salaries, while Packaging Associates receive the lowest. Educational qualifications affect salary levels, with Master’s degree holders earning the most. Leave balances are generally moderate, with some employees having more than 20 days of leave. These insights highlight growth, gender imbalance, role distribution, salary disparities, and leave management within the organization.
-
-
+  
 Conclusion
 The workforce has grown significantly from 2017 to 2023, reflecting the company’s expansion. There is a higher number of female employees compared to males, with notable role variations, Packaging Associates being the largest group and Marketing roles the smallest. Employees aged 30 are the largest age group for both genders. Salary analysis shows that Product Managers earn the highest salaries, while Packaging Associates receive the lowest. Educational qualifications affect salary levels, with Master’s degree holders earning the most. Leave balances are generally moderate, with some employees having more than 20 days of leave. These insights highlight growth, gender imbalance, role distribution, salary disparities, and leave management within the organization.
 
