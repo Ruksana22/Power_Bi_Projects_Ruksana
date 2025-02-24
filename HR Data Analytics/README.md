@@ -4,13 +4,13 @@ Market fluctuations and rapid technological advancements have significantly impa
 Across various regions, salary trends have shown both increases and decreases over the years. Salary hikes were mainly intended to retain top-level professionals, while salary cuts were implemented due to market fluctuations but were reversed once market conditions improved. HR professionals worldwide are focused on recruiting new talent, retaining existing employees, and understanding the reasons behind employee separations.
 
 # Tools
-Tools used for Data Cleaning, Data Analysis and Report generation:
-    •	Excel
-    •	PowerBI
-    •	PowerBI Service
+Tools used for Data Cleaning, Data Analysis and Report generation:#
+    #•	Excel 
+    #•	PowerBI
+    #•	PowerBI Service
 
 # Data Cleaning
-In the initial data preparation phase, I performed the following tasks:
+In the initial data preparation phase, I performed the following tasks:#
     •	Data loading and inspection,
     •	Changing data types,
     •	Optimizing the dataset by removing unnecessary and duplicate columns,
@@ -19,7 +19,7 @@ In the initial data preparation phase, I performed the following tasks:
     •	Data cleaning and formatting
 # Data Modeling
     •	Managing Relationships between different tables.
-    ![alt text](Images/Power_bi_HR_Data_Model_view.png)
+![alt text](Images/Power_bi_HR_Data_Model_view.png)
 
 # Exploratory Data Analysis
     EDA involved exploring the HR data to answer key questions, such as:
@@ -33,7 +33,7 @@ With the processed data, I created a HR analytics dashboard that presents key in
 ![alt text](Images/Power_bi_HR_Data_dashboard.png)
 
 
-# Things done in this project:
+# Things done in this project:#
     •	Loading and Cleaning Data: Import data into Power BI and use Power Query to clean and prepare it.
     •	Creating HR Metrics: Calculate essential HR metrics such as headcount, average leave balance, and average salary using Power Pivot.
     •	Data Enrichment: Add meaningful columns to the data, such as Employee's first name and age group.
@@ -54,7 +54,8 @@ With the processed data, I created a HR analytics dashboard that presents key in
     •	Employee Filter: Filter employees based on the starting letter of their name.
     •	Leave Balance Analysis: Review leave balances, especially focusing on those exceeding 20 days.
     •	HR Dashboard: Design a HR dashboard to consolidate and visualize key metrics.
-Insights
+
+# Insights
 
 # 1. Employee Statistics
     Total Number of Employees Over Time:
