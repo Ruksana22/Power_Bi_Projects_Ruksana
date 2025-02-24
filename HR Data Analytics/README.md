@@ -4,10 +4,12 @@ Market fluctuations and rapid technological advancements have significantly impa
 Across various regions, salary trends have shown both increases and decreases over the years. Salary hikes were mainly intended to retain top-level professionals, while salary cuts were implemented due to market fluctuations but were reversed once market conditions improved. HR professionals worldwide are focused on recruiting new talent, retaining existing employees, and understanding the reasons behind employee separations.
 
 # Tools
-Tools used for Data Cleaning, Data Analysis and Report generation:#
-    #•	Excel 
-    #•	PowerBI
-    #•	PowerBI Service
+Tools used for Data Cleaning, Data Analysis and Report generation:
+
+    •	Excel
+    •	PowerBI
+    •	PowerBI Service
+
 
 # Data Cleaning
 In the initial data preparation phase, I performed the following tasks:#
@@ -17,6 +19,7 @@ In the initial data preparation phase, I performed the following tasks:#
     •	Standardizing abbreviations used in the dataset,
     •	Handling missing values,
     •	Data cleaning and formatting
+    
 # Data Modeling
     •	Managing Relationships between different tables.
 ![alt text](Images/Power_bi_HR_Data_Model_view.png)
