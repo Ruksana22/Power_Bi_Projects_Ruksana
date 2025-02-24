@@ -12,19 +12,22 @@ Tools used for Data Cleaning, Data Analysis and Report generation:
 
 
 # Data Cleaning
-In the initial data preparation phase, I performed the following tasks:#
+In the initial data preparation phase, I performed the following tasks:
+
     •	Data loading and inspection,
     •	Changing data types,
     •	Optimizing the dataset by removing unnecessary and duplicate columns,
     •	Standardizing abbreviations used in the dataset,
     •	Handling missing values,
     •	Data cleaning and formatting
-    
+
 # Data Modeling
+
     •	Managing Relationships between different tables.
 ![alt text](Images/Power_bi_HR_Data_Model_view.png)
 
 # Exploratory Data Analysis
+
     EDA involved exploring the HR data to answer key questions, such as:
     •	What are the recruitment trends?
     •	What are New Hires, Retention and Separation trends?
@@ -36,7 +39,8 @@ With the processed data, I created a HR analytics dashboard that presents key in
 ![alt text](Images/Power_bi_HR_Data_dashboard.png)
 
 
-# Things done in this project:#
+# Things done in this project:
+
     •	Loading and Cleaning Data: Import data into Power BI and use Power Query to clean and prepare it.
     •	Creating HR Metrics: Calculate essential HR metrics such as headcount, average leave balance, and average salary using Power Pivot.
     •	Data Enrichment: Add meaningful columns to the data, such as Employee's first name and age group.
