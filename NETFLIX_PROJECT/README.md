@@ -1,7 +1,6 @@
 # Power_Bi_Projects_Ruksana
 # Problem Statement
-Market fluctuations and rapid technological advancements have significantly impacted the global market. Numerous reports indicate that approximately half of employees are considering changing jobs. While many market analysts highlight flexible working arrangements and job security as the key factors, only a few employees cite higher salaries as their primary goal.
-Across various regions, salary trends have shown both increases and decreases over the years. Salary hikes were mainly intended to retain top-level professionals, while salary cuts were implemented due to market fluctuations but were reversed once market conditions improved. HR professionals worldwide are focused on recruiting new talent, retaining existing employees, and understanding the reasons behind employee separations.
+
 
 # Tools
 Tools used for Data Cleaning, Data Analysis and Report generation:
@@ -24,7 +23,8 @@ In the initial data preparation phase, I performed the following tasks:
 # Data Modeling
 
     •	Managing Relationships between different tables.
-![alt text](Images/Power_bi_HR_Data_Model_view.png)
+![alt text](<Images/NETFLIX DATA MODEL VIEW.png>)
+
 
 # Exploratory Data Analysis
 
@@ -36,7 +36,7 @@ In the initial data preparation phase, I performed the following tasks:
 # Dashboard Design and Creation
 
 With the processed data, I created a HR analytics dashboard that presents key insights on employee attrition. The dashboard includes charts showing attrition rates by department, age, salary, and job satisfaction, providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees.
-![alt text](Images/Power_bi_HR_Data_dashboard.png)
+![alt text](<Images/NETFLIX DATA VISUALITION REPORT.png>)
 
 
 # Things done in this project:
@@ -127,6 +127,6 @@ The Analysis results are summarized as follows:
     •	Implement a strategy to retain talented employees who will be an asset to a company.
   
 # Conclusion
-The workforce has grown significantly from 2017 to 2023, reflecting the company’s expansion. There is a higher number of female employees compared to males, with notable role variations, Packaging Associates being the largest group and Marketing roles the smallest. Employees aged 30 are the largest age group for both genders. Salary analysis shows that Product Managers earn the highest salaries, while Packaging Associates receive the lowest. Educational qualifications affect salary levels, with Master’s degree holders earning the most. Leave balances are generally moderate, with some employees having more than 20 days of leave. These insights highlight growth, gender imbalance, role distribution, salary disparities, and leave management within the organization.
+The workforce has grown significantly from 2017 to 2023, reflecting the company’s expansion. There is a higher number of 
 
 
