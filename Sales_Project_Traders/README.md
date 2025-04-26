@@ -24,7 +24,8 @@ In the initial data preparation phase, I performed the following tasks:
 # Data Modeling
 
     •	Managing Relationships between different tables.
-![alt text](Images/Power_bi_HR_Data_Model_view.png)
+![alt text](Images/Data_model.png)
+
 
 # Exploratory Data Analysis
 
@@ -36,8 +37,11 @@ In the initial data preparation phase, I performed the following tasks:
 # Dashboard Design and Creation
 
 With the processed data, I created a HR analytics dashboard that presents key insights on employee attrition. The dashboard includes charts showing attrition rates by department, age, salary, and job satisfaction, providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees.
-![alt text](Images/Power_bi_HR_Data_dashboard.png)
+Sales Overview
+![alt text](<Images/Sales overview.png>)
 
+Profit Overview
+![alt text](Images/Profit_overview.png)
 
 # Things done in this project:
 
