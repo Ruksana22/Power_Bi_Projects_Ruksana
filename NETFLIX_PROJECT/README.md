@@ -21,7 +21,7 @@ link:https://colab.research.google.com/github/Shreyashgupta016/My-Projects/blob/
 # Tools
 Tools used for Data Cleaning, Data Analysis and Report generation:
 
-    •	Excel
+    •   Excel
     •	PowerBI
         🔧 Tools & Visuals Used in Power BI:
         - Slicers for year, genre, type
@@ -102,15 +102,15 @@ Creating a **Netflix Data Analytics Power BI project** can provide insightful fi
 🎯 Netflix Data Analytics Power BI Project: Key Insights & Findings
 
  ✅ 1. Genre Popularity
-- 🔍 *Top Genres*: Drama, Comedy, and Documentaries tend to dominate the Netflix catalog.
+- 🔍 *Top Genres*: Comedy,Drama, and Documentaries tend to dominate the Netflix catalog.
 - 📊 *Genre Distribution*: Visualization shows how different genres perform across countries.
-- ✅ *Finding*: Over 60% of Netflix content is concentrated in less than 5 genres.
+- ✅ *Finding*: Over 60% of Netflix content is concentrated in less than 4 genres.
 
 ---
 
 ✅ 2. Content Type Distribution
-- 🔄 *Movies vs. TV Shows*: Pie charts or bar graphs show the ratio.
-- ✅ *Finding*: Movies make up around 70% of the Netflix catalog; TV shows comprise 30%.
+- 🔄 *Movies vs. TV Shows*: Pie chart show the ratio.
+- ✅ *Finding*: Movies make up around 80% of the Netflix catalog; TV shows comprise 20%.
 
 ---
 
@@ -121,7 +121,7 @@ Creating a **Netflix Data Analytics Power BI project** can provide insightful fi
 ---
 
 ✅ 4. Country-wise Content Distribution
-- 🌎 *Heatmaps* or *bar charts* show the number of shows per country.
+- 🌎 *Heatmaps*  show the number of shows per country.
 - ✅ *Finding*: The U.S., India, and the UK are among the top countries with most content produced or available.
 
 ---
@@ -146,7 +146,7 @@ Creating a **Netflix Data Analytics Power BI project** can provide insightful fi
 - Movies dominate, but TV shows have increased in recent years
 
 🔹 Genre Insights
-- Top genres: Drama, Comedy, Documentary, Action
+- Top genres:  Comedy, Drama, Documentary, Action
 - Kids & Family content strong in U.S., India, and Canada
 
 🔹 Country Distribution
