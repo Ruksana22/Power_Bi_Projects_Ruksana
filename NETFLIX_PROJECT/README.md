@@ -3,16 +3,17 @@
 The problem statement says that the renowned OTT platform, Netflix wants to increase its business in different countries. We are provided with the dataset which contains the movies and shows that are in Netflix. We have to analyse this data, generate insights on them and finally recommend those movies and shows that could help Netflix increase its profit in various countries.
 To achieve this goal, we have to first find out what drives profit growth in Netflix. Profit growth is driven through 2 factors, increase in revenue or decrease in company costs or both. Here, the problem statement is that we have to find out those movies/shows that could help accelerate business of Netflix. This makes us rule out the 2nd factor of decreasing the costs, because if we are aiming to increase the business by particularly focusing on the production of specific shows and movies in different countries, then we have to spend extra on marketing and operations costs, and for that decreasing costs is not an option. Therefore, we have to focus on increasing revenue by acquiring new customers or by increasing customer retention or both.
 To acquire new customers or to increase the customer retention rate, we have to figure out some critical aspects that affect the customer acquisition and retention. They are as follows:
-	•	What type/genre of movies are generally seen and rated higher in various countries? What is the watch time of these movies?
+    . Runtime Hours
+    •	What type/genre of movies are generally seen and rated higher in various countries? What is the watch time of these movies?
+    •	What type/genre of movies are generally seen and rated higher in various countries? What is the watch time of these movies? Total content - Total TV Shows and Total Movies, IMDB Average Ratings, Total content and count type by genre
+	•	What type/genre of movies are generally seen and rated higher in various countries? What is the watch time of these movies? Count of Runtime(in mintue) by production countries and Type
 	•	Which actors/actresses’ or director’s movies are preferred in various countries and globally?
 	•	Is the global trend shifting towards series from movies? If yes, then what all countries are the forerunner in it?
 	•	What type of movies/shows are watched by what age-group of people (demographics)? Also, what is the time each age-group of people spend on Netflix?
-	•	How has the number of movies released per year changed over the years?
+	•	How has the number of movies released per year changed over the years? Total content release year and type
 
-	•	Does seasonality affects the users on Netflix? If yes, then in which season/month Netflix record the largest number of subscriptions?
+	•	Does seasonality affects the users on Netflix? If yes, then in which season/month Netflix record the largest number of subscriptions? Total content by type -Show or movie
 	•	What all shows are binge-watched on Netflix?
-	•	Is there a possibility to enter new market/country?
-	•	Does discount on festivals increase the user inflow?
 	•	What are the evergreen shows i.e. shows that became superhit in the past?
 We will try to find the answers of most of these questions (as per the limitations of the data) through our exploratory data analysis, and will build our insights accordingly.
 link:https://colab.research.google.com/github/Shreyashgupta016/My-Projects/blob/main/Netflix_Project.ipynb/
@@ -22,8 +23,52 @@ Tools used for Data Cleaning, Data Analysis and Report generation:
 
     •	Excel
     •	PowerBI
-    •	PowerBI Service
+        🔧 Tools & Visuals Used in Power BI:
+        - Slicers for year, genre, type
+        - Line and bar charts for trends
+        - Treemaps for categorical data (genres, countries)
+        - Custom tooltips for details on hover
+        - KPI cards for summary statistics (total movies, total shows, top genre)
 
+Here's a comprehensive outline for a **Netflix Data Analytics Power BI Project** including:
+
+- Exploratory Data Analysis (EDA)
+- Insights and Findings
+- Trends
+- Recommendations
+- Conclusion
+
+---
+
+## 📊 **Netflix Data Analytics Project Using Power BI**
+
+---
+1. Exploratory Data Analysis (EDA)**
+
+**Dataset Overview**:  
+Features include:  
+- Title  
+- Type (Movie/TV Show)  
+- Genre (Listed_in)  
+- Country  
+- Release Year  
+- Date Added  
+- Duration  
+- Director, Cast  
+- Rating  
+
+EDA in Power BI includes:  
+- Null/missing data checks (e.g., missing directors or cast data)
+- Data types formatting (duration into numeric values)
+- Date conversion for trends over time
+- Filters for country, type, genre
+
+Initial Cleaning Tasks:
+- Split and normalize `Genre` and `Country` fields
+- Create new fields: `Year Added`, `Duration in minutes`, `Content Age Group`
+- Remove duplicates and null-heavy records
+
+---
 
 # Data Cleaning
 In the initial data preparation phase, I performed the following tasks:
@@ -42,109 +87,122 @@ In the initial data preparation phase, I performed the following tasks:
 
 
 # Exploratory Data Analysis
-
-    EDA involved exploring the HR data to answer key questions, such as:
-    •	What are the recruitment trends?
-    •	What are New Hires, Retention and Separation trends?
-    •	What are Male, and Female staff with age groups that have been retained over the years in every region?
-
+ EDA involved exploring the NetFLix data to answer key questions, such as:
+    •	What are the NetFlix content trends?
+    •	What are count genere and Separation trends?
+    
 # Dashboard Design and Creation
 
-With the processed data, I created a HR analytics dashboard that presents key insights on employee attrition. The dashboard includes charts showing attrition rates by department, age, salary, and job satisfaction, providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees.
+With the processed data, I created a Netflix data analytics dashboard that presents key insights on content. The dashboard includes charts showing trends of content, count of TV shows and Movie,Around the world  providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees.
 ![alt text](<Images/NETFLIX DATA VISUALITION REPORT.png>)
 
-
-# Things done in this project:
-
-    •	Loading and Cleaning Data: Import data into Power BI and use Power Query to clean and prepare it.
-    •	Creating HR Metrics: Calculate essential HR metrics such as headcount, average leave balance, and average salary using Power Pivot.
-    •	Data Enrichment: Add meaningful columns to the data, such as Employee's first name and age group.
-    •	Salary Analysis: Explore relationships between salary and educational qualifications.
-    •	Visual Filters: Apply filters to view top and bottom paid staff within each job role.
-    •	Customizing Visuals: Modify visual elements in Power BI, including colors, axes, labels, and legends.
-    •	Advanced DAX Calculations: Perform advanced calculations like cumulative headcount and leave balances exceeding 20 days.
-    •	Dashboard Design: Create a detailed monthly HR dashboard with Power BI.
-    •	Using Card Visuals: Work with the "NEW" card visual to highlight specific metrics.
-    •	The project addresses the following analysis themes:
-    •	Job Count Analysis: Determine how many people are employed in each job role.
-    •	Gender Breakdown: Analyze the gender distribution among the staff.
-    •	Age Distribution: Examine the age spread of the employees.
-    •	Salary Analysis: Identify which job roles have higher salaries.
-    •	Top Earners: Find the top earners within each job role.
-    •	Qualification vs. Salary: Explore the correlation between educational qualifications and salary.
-    •	Staff Growth Trend: Analyze the trend of staff growth over time.
-    •	Employee Filter: Filter employees based on the starting letter of their name.
-    •	Leave Balance Analysis: Review leave balances, especially focusing on those exceeding 20 days.
-    •	HR Dashboard: Design a HR dashboard to consolidate and visualize key metrics.
-
 # Insights
+Creating a **Netflix Data Analytics Power BI project** can provide insightful findings into user behavior, content performance, genre trends, and more. Here’s a summary of what such a project can include and the **key findings** you might highlight.
 
-# 1. Employee Statistics
-    Total Number of Employees Over Time:
-    •	2017: 1 employee
-    •	2023: 161 employees
-    •	Growth: Significant increase in the number of employees from 1 in 2017 to 161 in 2023.
-    Gender Distribution:
-    •	Total Male Employees: 73
-    •	Total Female Employees: 88
-    •	Total Employees: 161
-    •	Gender Ratio: More females than males in the workforce.
-# 2. Employee Roles and Distribution:
-    Highest Number of Employees by Role:
-    •	Packaging Associate: 22 employees Note: This role has the more number of employees compared to others.
-    Lowest Number of Employees by Role:
-    •	Marketing Manager: 10 employees
-    •	Marketing Specialist: 10 employees Note: These roles have the less number of employees.
-# 3. Age Distribution:
-    Female Employees Aged 30:
-    •	Number of Employees: 44
-    •	Significance: This is the highest number of female employees in a single age group.
-    Male Employees Aged 30:
-    •	Number of Employees: 41
-    •	Significance: This is the highest number of male employees in a single age group.
-# 4. Salary Information:
-    Overall Salary Metrics:
-    •	Average Salary: $54,231
-    •	Minimum Salary: $28,900
-    •	Maximum Salary: $85,000
-    Role-Specific Salary Details:
-    •	Highest Average Salary: Product Manager - $82,825
-    •	Lowest Average Salary: Packaging Associate - $33,409
-    •	Highest Maximum Salary: Product Manager - $85,000
-    •	Lowest Minimum Salary: Packaging Associate - $28,900
-    Educational Qualification and Salary:
-    •	Highest Salary (Masters Degree): $85,000
-    •	Lowest Maximum Salary (Bachelor's Degree): $78,900
-# 5. Leave Balance Information:
-    •	Average Leave Balance: 16.4 days
-    •	Number of Employees with Leave Balance Greater Than 20 Days: 29
-    •	Significance: Indicates that a portion of the workforce has a significant leave balance.
-    Visualizations
-    The dashboard includes the following visualizations:
-    •	Employee count per job title: Bar Chart
-    •	Employee percentage by gender: Pie Chart
-    •	Employee count per year: Line Chart
-    •	Employee count by age and gender: Coloumn Chart
-    •	Maximum Salary Based on Educational Qualification: Scatter Chart
-    •	Headcount, Average Salary, Average Leave Balance and Leave Balance more than 20 days: Card
+🎯 Netflix Data Analytics Power BI Project: Key Insights & Findings
 
-# Insights
-The Analysis results are summarized as follows:
-    •	The company has over 13k employees, Male staff is around 57% and Female staff is 43%.
-    •	Over the past few years, from 2011 till 2014, 11.76K employees have left jobs and noticeably Male staff is higher % as compared to Female staff members.
-    •	The New Hires trend is upward every year with 17.18K new hires from 2011 till 2014.
-    •	Age group of 30 and less are more compared to 30+ employees. Noticeably, new hires under the age of 30 are working as part-time jobs and in West and North regions.
-    •	Employee retention is less in the West and North regions considering these regions have higher recruitment compared to all other regions.
+ ✅ 1. Genre Popularity
+- 🔍 *Top Genres*: Drama, Comedy, and Documentaries tend to dominate the Netflix catalog.
+- 📊 *Genre Distribution*: Visualization shows how different genres perform across countries.
+- ✅ *Finding*: Over 60% of Netflix content is concentrated in less than 5 genres.
 
-# Recommendations
-    Based on the analysis, I recommend the following actions:
-    •	The company must focus on West and North regions for employee retention. Management can look into deploying some new measures, programs, perks or benefits for existing employees to ensure they will not leave the company.
-    •	Implement a strategy to retain talented employees who will be an asset to a company.
-  
+---
+
+✅ 2. Content Type Distribution
+- 🔄 *Movies vs. TV Shows*: Pie charts or bar graphs show the ratio.
+- ✅ *Finding*: Movies make up around 70% of the Netflix catalog; TV shows comprise 30%.
+
+---
+
+✅ 3. Content Release Trend Over Time
+- 📅 *Year-wise content additions*: Line graph shows new content released each year.
+- ✅ *Finding*: Major surge in content releases around 2017–2019 due to original content push.
+
+---
+
+✅ 4. Country-wise Content Distribution
+- 🌎 *Heatmaps* or *bar charts* show the number of shows per country.
+- ✅ *Finding*: The U.S., India, and the UK are among the top countries with most content produced or available.
+
+---
+
+✅ 5. Ratings & Age Classification Analysis
+- 📉 *Ratings analysis*: Breakdown of TV-MA, PG-13, R, etc.
+- ✅ *Finding*: TV-MA and TV-14 are the most common, indicating a mature audience focus.
+
+---
+
+✅ 6. Duration & Runtime Insights
+- 📏 *Average movie length*: Visualizations of distribution of movie durations.
+- ✅ *Finding*: Most movies range between 80–120 minutes; very few are over 2.5 hours.
+
+---
+
+
+📈 **2. Key Findings**
+
+🔹 Content Type Distribution
+- 69% Movies, 31% TV Shows
+- Movies dominate, but TV shows have increased in recent years
+
+🔹 Genre Insights
+- Top genres: Drama, Comedy, Documentary, Action
+- Kids & Family content strong in U.S., India, and Canada
+
+🔹 Country Distribution
+- U.S. has the highest number of titles (~32%)
+- India and UK follow, especially in TV Shows and regional dramas
+
+🔹 Rating Breakdown
+- Most frequent: TV-MA, TV-14, and PG
+- TV-MA indicates adult-oriented content dominates Netflix
+
+🔹 Duration Analysis (Movies)
+- Most movies fall between 80–120 minutes
+- Short films and stand-up specials under 60 minutes increasing
+
+🔹 Release Trends
+- Peak content addition years: 2018–2020
+- Sharp drop post-2020, likely due to pandemic
+
+---
+
+📊 Trends Observed
+
+- 📆 **Yearly Content Growth**: Spike from 2016–2019 as Netflix pushed Originals.
+- 🌍 **Localized Content Growth**: Increase in India, South Korea, Spain — tied to international audience growth.
+- 📺 **Shift in Ratings**: TV-MA content increasingly produced.
+- 🎬 **Content Length Trends**: Surge in shorter, binge-able formats (30–50 min shows and under-90 min films).
+- 🎯 **Genre Popularity**: Comedy, Documentary, Thriller consistently perform well.
+
+---
+
+💡 4. Recommendations
+
+For Netflix:
+1. **Invest More in International Originals**  
+   Countries like India, South Korea, and Spain show high growth and engagement.
+
+2. **Diversify Genres in TV Shows**  
+   While Movies show genre diversity, TV Shows are overly skewed toward Drama.
+
+3. **Increase PG/PG-13 Content**  
+   Large family and teen audience is under-served compared to mature audiences.
+
+4. **Use Data to Guide Binge-Worthy Series**  
+   Shows with shorter episodes and seasons can boost watch time and retention.
+
+---
+
+🧾 5. Conclusion
+
+- Netflix’s content strategy has leaned heavily into mature, U.S.-centric content, with a rapid increase in original productions between 2016–2020.
+- Power BI visualizations clearly highlight opportunities in regional content, family-friendly programming, and genre diversification.
+- With international expansion and audience segmentation, Netflix can further personalize offerings and optimize its global content strategy using data.
+
+---
+
 # Conclusion
-The workforce has grown significantly from 2017 to 2023, reflecting the company’s expansion. There is a higher number of 
-Recommendations:
-
 To improve business, it is required that the Netflix should focus on the top 10 countries which produces 77% of the total movies and tv shows as per the audience preferences. This is the area from where the maximum business can flow in.
 The Netflix should add more movies and tv shows that employ the actors/actresses who have worked the most, as these celebrities have a huge fan base in those specific countries and will attract larger audience, especially US where actors like Samuel L. Jackson, Tara Strong, Adam Sandler not only attracts home crowd but the foreign crowd as well due to the commonality of English language in many countries. Similarly Anupam Kher who has been a seasoned actor and Shahrukh Khan who rules Bollywood industry. Apart from that, it is recommended to add more movies and tv shows of particular genres that are being produced the most in individual countries such as the tag of International Movies in India, for example ‘My Name is Khan’, which is a Shahrukh Khan movie was a blockbuster hit.
 The focus has been rapidly shifting from movies to the tv shows in the recent years, which is also supported by our analysis, as we saw almost 1270% increase in the production of new tv shows after 2010. These shows need not be very long but short, primarily of 1 season or such. TV Shows today are creating a sense of connectivity more than the movies and as a result people are focusing on these shows more. At the same time, it is also recommended that we add International TV Shows more because of their rapid rise in the past 20 years.
