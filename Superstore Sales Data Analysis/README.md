@@ -1,3 +1,96 @@
+# Problem Statement
+The problem statement s
+
+# Tools
+Tools used for Data Cleaning, Data Analysis and Report generation:
+
+    •   Excel
+    •	PowerBI
+        🔧 Tools & Visuals Used in Power BI:
+        - Slicers for year, genre, type
+        - Line and bar charts for trends
+        - Treemaps for categorical data (genres, countries)
+        - Custom tooltips for details on hover
+        - KPI cards for summary statistics (total movies, total shows, top genre)
+
+Here's a comprehensive outline for a ** Superstore Sales Data Analytics Power BI Project** including:
+
+- Exploratory Data Analysis (EDA)
+- Insights and Findings
+- Trends
+- Recommendations
+- Conclusion
+
+---
+
+## 📊 **Superstore Sales Data Analytics Project Using Power BI**
+
+---
+1. Exploratory Data Analysis (EDA)**
+
+**Dataset Overview**:  
+Features include:  
+- Title  
+- Type (Movie/TV Show)  
+- Genre (Listed_in)  
+- Country  
+- Release Year  
+- Date Added  
+- Duration  
+- Director, Cast  
+- Rating  
+
+EDA in Power BI includes:  
+- Null/missing data checks (e.g., missing directors or cast data)
+- Data types formatting (duration into numeric values)
+- Date conversion for trends over time
+- Filters for country, type, genre
+
+Initial Cleaning Tasks:
+- Split and normalize `Genre` and `Country` fields
+- Create new fields: `Year Added`, `Duration in minutes`, `Content Age Group`
+- Remove duplicates and null-heavy records
+
+---
+
+# Data Cleaning
+In the initial data preparation phase, I performed the following tasks:
+
+    •	Data loading and inspection,
+    •	Changing data types,
+    •	Optimizing the dataset by removing unnecessary and duplicate columns,
+    •	Standardizing abbreviations used in the dataset,
+    •	Handling missing values,
+    •	Data cleaning and formatting
+
+# Data Modeling
+
+    •	Managing Relationships between different tables.
+![alt text](<Images/NETFLIX DATA MODEL VIEW.png>)
+
+
+# Exploratory Data Analysis
+ EDA involved exploring the NetFLix data to answer key questions, such as:
+    •	What are the NetFlix content trends?
+    •	What are count genere and Separation trends?
+    
+# Dashboard Design and Creation
+
+With the processed data, I created a Netflix data analytics dashboard that presents key insights on content. The dashboard includes charts showing trends of content, count of TV shows and Movie,Around the world  providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees.
+![alt text](<Images/NETFLIX DATA VISUALITION REPORT.png>)
+
+# Insights
+Creating a **Superstore Sales Data Analytics Power BI project** can provide insightful findings into user behavior, content performance, genre trends, and more. Here’s a summary of what such a project can include and the **key findings** you might highlight.
+
+🎯 Netflix Data Analytics Power BI Project: Key Insights & Findings
+
+ ✅ 1. Genre Popularity
+- 🔍 *Top Genres*: Comedy,Drama, and Documentaries tend to dominate the Netflix catalog.
+- 📊 *Genre Distribution*: Visualization shows how different genres perform across countries.
+- ✅ *Finding*: Over 60% of Netflix content is concentrated in less than 4 genres.
+
+---
+
 # PowerBI-superstore-analysis
 This repository contains a Power BI dashboard and report analyzing the Superstore Sales dataset. The project includes data cleaning, visualization, and key business insights to support decision-making.
 
@@ -28,9 +121,6 @@ Users can click on sub-categories in the scatter plot to access a detailed produ
 3. **Improve Logistics**: Address slow delivery times in Texas and Illinois for better customer satisfaction.
 
 ---
-👩‍💻 **Prepared for:** W Beyond
-📅 **Submission Date:** March 23, 2025
-[Follow me on LinkedIn](https://www.linkedin.com/in/abhishekmishra3/) &nbsp;&nbsp; | &nbsp;&nbsp; [Github Repository Link](https://github.com/abhishekmishra8/Power-BI-Project-Superstore-Sales-Dashboard) &nbsp;&nbsp; | &nbsp;&nbsp; [Github Page Link](https://abhishekmishra8.github.io/Power-BI-Project-Superstore-Sales-Dashboard/)<br>
 
 <details><summary>Project Report Video shown below:</summary>
 <video width="650" height="360" controls autoplay muted loop>
@@ -53,8 +143,7 @@ click the Github Page Link to see the video
 <b>Executive Summary:</b> <br>
 This report presents a comprehensive analysis of key findings derived from our business data. By examining payment modes, regions, customer segments, sales performance, profitability, shipping modes, product categories, sales forecast, and state-wise sales, we have gained valuable insights that can guide our business decisions and strategies. These findings shed light on customer preferences, market dynamics, and areas of opportunity. By leveraging these insights, we can optimize our operations, drive sales growth, and enhance profitability.<br><br>
 
-<b>Payment Mode Analysis:</b><br>
-Cash on Delivery (COD) emerged as the most popular payment mode, accounting for 42.62% of the total sum of sales. This finding suggests that a significant portion of our customer base prefers the convenience and trust associated with paying upon delivery. We should ensure a seamless COD process while exploring incentives to encourage customers to adopt online or card-based payments, which can streamline operations and reduce cash-handling risks.<br><br>
+
 
 <b>Regional Analysis:</b><br>
 The West region stood out with the highest sum of sales, accounting for 33.37% of the total. This dominance presents an opportunity to allocate additional resources for marketing and promotional activities tailored to this region. By understanding customer preferences and establishing strong local partnerships, we can enhance brand visibility and engage effectively with the West region's market.<br><br>
