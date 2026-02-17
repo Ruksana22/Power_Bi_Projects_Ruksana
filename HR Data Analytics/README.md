@@ -58,24 +58,19 @@ Power BI Dashboard-2
 # Insights
 
 # 1. Employee Statistics
+    Employee Statistics
     Total Number of Employees Over Time:
-     •	Active employee 13.48 K
+     •  Active employee 13.48 K
         • Male: 7.68 K employee
         • Female: 5.80 K employee
-    •	Separation employee 11.76 K
+    •   Separation employee 11.76 K
         • Male: 6.24 K employee
         • Female: 5.52 K employee
-    •	New Hire employee 11.76 K
+    •   New Hire employee 17.18 K
         • Male: 9.02 K employee
         • Female: 8.16 K employee
-    •	Growth: Significant increase in the number of employees from 1 in 2017 to 161 in 2023.
-    Gender Distribution:
-    •	Total Male Employees: 73
-    •	Total Female Employees: 88
-    •	Total Employees: 161
-    •	Gender Ratio: More females than males in the workforce.
 
-
+   
 Would you like a sample Excel or Power BI mock-up based on this structure?
     Female Employees Aged 30:
     •	Number of Employees: 44
@@ -89,7 +84,15 @@ Would you like a sample Excel or Power BI mock-up based on this structure?
     Lowest Number of Employees by Role:
     •	Marketing Manager: 10 employees
     •	Marketing Specialist: 10 employees Note: These roles have the less number of employees.
+# 3. Actives employee By Region and Job Type:
+    Actives for Part-Time (8586.00) was higher than Full-Time (4894.00).  Part-Time accounted for 95.43% of Male New Hires. 
+    Actives for Hourly and Salaried diverged the most when the AgeGroup was <30, when Hourly were 5319.00 higher than Salaried.
+
 # 4. New Hires By Region and Job Type:
+     Male New Hires and Female New Hires diverged the most when the Job type was Part-Time, when Male New Hires were 966.00 higher than Female New Hires. 
+    Total New Hires was higher for Part-Time (16244.00) than Full-Time (931). 
+    Average New Hires was higher for Part-Time (2,707.33) than Full-Time (155.17).
+
     Overall Salary Metrics:
     •	Average Salary: $54,231
     •	Minimum Salary: $28,900
@@ -103,6 +106,9 @@ Would you like a sample Excel or Power BI mock-up based on this structure?
     •	Maximum Salary Based on Educational Qualification: Scatter Chart
     •	Headcount, Average Salary, Average Leave Balance and Leave Balance more than 20 days: Card
  # 5. Separation By Region and AgeGroup:
+        Separations for Part-Time and Full-Time diverged the most when the Region was West, when Part-Time were 2120.00 higher than Full-Time.
+        Male Separations and Female Separationss diverged the most when the Job type was Part-Time, when Male Separations were 668.00 higher than Female Separations.
+
 
 # Insights
 The Analysis results are summarized as follows:
