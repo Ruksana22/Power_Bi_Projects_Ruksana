@@ -126,11 +126,6 @@ Creating a **Netflix Data Analytics Power BI project** can provide insightful fi
 
 ---
 
-✅ 5. Ratings & Age Classification Analysis
-- 📉 *Ratings analysis*: Breakdown of TV-MA, PG-13, R, etc.
-- ✅ *Finding*: TV-MA and TV-14 are the most common, indicating a mature audience focus.
-
----
 
 ✅ 6. Duration & Runtime Insights
 - 📏 *Average movie length*: Visualizations of distribution of movie durations.
@@ -153,9 +148,6 @@ Creating a **Netflix Data Analytics Power BI project** can provide insightful fi
 - U.S. has the highest number of titles (~32%)
 - India and UK follow, especially in TV Shows and regional dramas
 
-🔹 Rating Breakdown
-- Most frequent: TV-MA, TV-14, and PG
-- TV-MA indicates adult-oriented content dominates Netflix
 
 🔹 Duration Analysis (Movies)
 - Most movies fall between 80–120 minutes
@@ -171,7 +163,7 @@ Creating a **Netflix Data Analytics Power BI project** can provide insightful fi
 
 - 📆 **Yearly Content Growth**: Spike from 2016–2019 as Netflix pushed Originals.
 - 🌍 **Localized Content Growth**: Increase in India, South Korea, Spain — tied to international audience growth.
-- 📺 **Shift in Ratings**: TV-MA content increasingly produced.
+- 📺 **Shift in Ratings**: TV-MA content increasingly produced. 
 - 🎬 **Content Length Trends**: Surge in shorter, binge-able formats (30–50 min shows and under-90 min films).
 - 🎯 **Genre Popularity**: Comedy, Documentary, Thriller consistently perform well.
 
@@ -186,15 +178,12 @@ For Netflix:
 2. **Diversify Genres in TV Shows**  
    While Movies show genre diversity, TV Shows are overly skewed toward Drama.
 
-3. **Increase PG/PG-13 Content**  
-   Large family and teen audience is under-served compared to mature audiences.
-
-4. **Use Data to Guide Binge-Worthy Series**  
+3. **Use Data to Guide Binge-Worthy Series**  
    Shows with shorter episodes and seasons can boost watch time and retention.
 
 ---
 
-🧾 5. Conclusion
+🧾 4. Conclusion
 
 - Netflix’s content strategy has leaned heavily into mature, U.S.-centric content, with a rapid increase in original productions between 2016–2020.
 - Power BI visualizations clearly highlight opportunities in regional content, family-friendly programming, and genre diversification.
@@ -204,7 +193,8 @@ For Netflix:
 
 # Conclusion
 To improve business, it is required that the Netflix should focus on the top 10 countries which produces 77% of the total movies and tv shows as per the audience preferences. This is the area from where the maximum business can flow in.
-The Netflix should add more movies and tv shows that employ the actors/actresses who have worked the most, as these celebrities have a huge fan base in those specific countries and will attract larger audience, especially US where actors like Samuel L. Jackson, Tara Strong, Adam Sandler not only attracts home crowd but the foreign crowd as well due to the commonality of English language in many countries. Similarly Anupam Kher who has been a seasoned actor and Shahrukh Khan who rules Bollywood industry. Apart from that, it is recommended to add more movies and tv shows of particular genres that are being produced the most in individual countries such as the tag of International Movies in India, for example ‘My Name is Khan’, which is a Shahrukh Khan movie was a blockbuster hit.
+The Netflix should add more movies and tv shows that employ the actors/actresses who have worked the most, as these celebrities have a huge fan base in those specific countries and will attract larger audience, especially US where actors like Samuel L. Jackson, Tara Strong, Adam Sandler not only attracts home crowd but the foreign crowd as well due to the commonality of English language in many countries.
+
 The focus has been rapidly shifting from movies to the tv shows in the recent years, which is also supported by our analysis, as we saw almost 1270% increase in the production of new tv shows after 2010. These shows need not be very long but short, primarily of 1 season or such. TV Shows today are creating a sense of connectivity more than the movies and as a result people are focusing on these shows more. At the same time, it is also recommended that we add International TV Shows more because of their rapid rise in the past 20 years.
 We should offer some discounts during the festival season especially during the New Year’s time as we can see from the data that most of the addition of movies are done during this time of the year. The discounts or subsidies will greatly increase the user flow and will add more people during the festivals’ time especially in the second half of the year. Also, ratings matter a lot in movies business. Therefore, it is recommended to prioritize adding those movies/tv shows which are mostly suited to individuals above 14 years of age, as the highest rating for most of the movies/tv shows are TV-MA.
 
