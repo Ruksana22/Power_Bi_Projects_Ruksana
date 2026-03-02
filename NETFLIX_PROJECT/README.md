@@ -24,22 +24,14 @@ Step 1: Define What Drives Revenue on Netflix
 
 Revenue is primarily driven by:
 
-* 📈 Subscriber Growth
-* 🔁 Retention Rate
-* 🌍 Country Expansion
-* ⭐ High-rated & popular content
-* 🎭 Genre demand by region
-* ⏳ Content volume & freshness
+    *   Subscriber Growth
+    *   Retention Rate
+    *   Country Expansion
+    *   High-rated & popular content
+    *   Genre demand by region
+    *  Content volume & freshness
 
 From your dataset (Netflix titles dataset), we can analyze:
-
-* Genre
-* Country
-* Release year
-* Type (Movie/TV Show)
-* Runtime
-* IMDb rating (if included)
-* Content volume trends
 
 ---
 
@@ -47,21 +39,21 @@ From your dataset (Netflix titles dataset), we can analyze:
 
 Convert the business problem into measurable questions:
 
-1. Which genres are most popular globally and by country?
-2. Do TV shows or Movies attract more content volume?
-3. Which countries produce the most content?
-4. What genres dominate in high-content countries?
-5. Is there a trend of increasing content production over years?
-6. What type of content has higher average ratings?
-7. Do longer runtimes correlate with higher ratings?
-8. Which countries have growing content production trends?
+    1. Which genres are most popular globally and by country?
+    2. Do TV shows or Movies attract more content volume?
+    3. Which countries produce the most content?
+    4. What genres dominate in high-content countries?
+    5. Is there a trend of increasing content production over years?
+    6. What type of content has higher average ratings?
+    7. Do longer runtimes correlate with higher ratings?
+    8. Which countries have growing content production trends?
 
 ---
 
 
 <!-- The problem statement says that the renowned OTT platform, Netflix wants to increase its business in different countries. We are provided with the dataset which contains the movies and shows that are in Netflix. We have to analyse this data, generate insights on them and finally recommend those movies and shows that could help Netflix increase its profit in various countries.
 
-To achieve this goal, we have to first find out what drives profit growth in Netflix. Profit growth is driven through 2 factors, increase in revenue or decrease in company costs or both. Here, the problem statement is that we have to find out those movies/shows that could help accelerate business of Netflix. This makes us rule out the 2nd factor of decreasing the costs, because if we are aiming to increase the business by particularly focusing on the production of specific shows and movies in different countries, then we have to spend extra on marketing and operations costs, and for that decreasing costs is not an option. Therefore, we have to focus on increasing revenue by acquiring new customers or by increasing customer retention or both. -->
+To achieve this goal, we have to first find out what drives profit growth in Netflix. Profit growth is driven through 2 factors, increase in revenue or decrease in company costs or both. Here, the problem statement is that we have to find out those movies/shows that could help accelerate business of Netflix. This makes us rule out the 2nd factor of decreasing the csts, because if we are aiming to increase the business by particularly focusing on the production of specific shows and movies in different countries, then we have to spend extra on marketing and operations costs, and for that decreasing costs is not an option. Therefore, we have to focus on increasing revenue by acquiring new customers or by increasing customer retention or both. -->
 Connect to the dataset and perform the following tasks for data modeling. Do an analysis of the
 dataset by cleaning and modifying the dataset, thus drawing relevant insights.
 Data Description:
@@ -303,17 +295,17 @@ For Netflix:
 
 2. Diversify Genres in TV Shows
    While Movies show genre diversity, TV Shows are overly skewed toward Drama.
+   Expand Drama, Comedy, and Thriller content
+    Focus on TV Series for Retention
+    Develop multi-season content
+    Invest in binge-worthy series
 
 3. Use Data to Guide Binge-Worthy Series  
    Shows with shorter episodes and seasons can boost watch time and retention.
 
----
+4. Expand in Emerging Markets
 
-🧾 4. Conclusion
-
-- Netflix’s content strategy has leaned heavily into mature, U.S.-centric content, with a rapid increase in original productions between 2016–2020.
-- Power BI visualizations clearly highlight opportunities in regional content, family-friendly programming, and genre diversification.
-- With international expansion and audience segmentation, Netflix can further personalize offerings and optimize its global content strategy using data.
+    Produce localized content in: India, South Korea, Spain, Brazil
 
 ---
 
@@ -321,62 +313,9 @@ For Netflix:
 To improve business, it is required that the Netflix should focus on the top 10 countries which produces 77% of the total movies and tv shows as per the audience preferences. This is the area from where the maximum business can flow in.
 The Netflix should add more movies and tv shows that employ the actors/actresses who have worked the most, as these celebrities have a huge fan base in those specific countries and will attract larger audience, especially US where actors like Samuel L. Jackson, Tara Strong, Adam Sandler not only attracts home crowd but the foreign crowd as well due to the commonality of English language in many countries.
 
-The focus has been rapidly shifting from movies to the tv shows in the recent years, which is also supported by our analysis, as we saw almost 1270% increase in the production of new tv shows after 2010. These shows need not be very long but short, primarily of 1 season or such. TV Shows today are creating a sense of connectivity more than the movies and as a result people are focusing on these shows more. At the same time, it is also recommended that we add International TV Shows more because of their rapid rise in the past 20 years.
-We should offer some discounts during the festival season especially during the New Year’s time as we can see from the data that most of the addition of movies are done during this time of the year. The discounts or subsidies will greatly increase the user flow and will add more people during the festivals’ time especially in the second half of the year. Also, ratings matter a lot in movies business. Therefore, it is recommended to prioritize adding those movies/tv shows which are mostly suited to individuals above 14 years of age, as the highest rating for most of the movies/tv shows are TV-MA.
+Netflix should increase revenue by strategically investing in high-demand genres and high-engagement TV shows in emerging international markets, focusing on localized and high-rated content to drive both customer acquisition and retention.
 
-<!-- Microsoft Power BI Certification and Training
+- Netflix’s content strategy has leaned heavily into mature, U.S.-centric content, with a rapid increase in original productions between 2016–2020.
+- Power BI visualizations clearly highlight opportunities in regional content, family-friendly programming, and genre diversification.
+- With international expansion and audience segmentation, Netflix can further personalize offerings and optimize its global content strategy using data.
 
-Module 4: Data Visualization
-Assignment Document
-© Brain4ce Education Solutions Pvt. Ltd.
-Module 4: Data Visualization
-© B r a i n 4 c e E d u c a t i o n S o l u t i o n s P v t . L t d Page 1
-Assignment
-Scenario: Given a dataset named as “1910_m4_assign_dataset_v1.0”. Connect to the
-dataset and perform the following tasks for data modeling. Do an analysis of the
-dataset by cleaning and modifying the dataset, thus drawing relevant insights.
-Data Description:
-Credits table:
-person id: Person id.
-Id: Team Id while working on a movie.
-Name: Name of the person.
-Character: The character they have played in the movie.
-Role: Their role in making a movie.
-Title Table:
-Id: Team Id while working on a movie.
-Title: Movie/web series name
-Type: Movie/Web series
-Release_year: The release year when the movie was released.
-Age_certification: Certificate based on content allowed to watch by age.
-Runtime: Total screen time of content
-Genres: Movie type based on Action/Comedy/Scifi
-Production_countries: Origin of content
-Seasons: The count of sequel/prequel number of any content
-Imdb_id: Registered ID on IMDB website
-Imdb_score: Average rating by all users
-Imdb_votes: The no of people has given their vote
-Tmdb_popularity: TMDB popularity score
-Tmdb_score: TMDB rating
-The following are the tasks that need to be performed:
-1. Connect and get data from an Excel file named “1910_m4_assign_dataset_v1.0”.
-2. Open the power query editor and perform the data cleaning task.
-3. Open the data model and make relationships among all tables.
-4. Create measures for “total content” and “Runtime hours” formulas using DAX.
-Module 4: Data Visualization
-© B r a i n 4 c e E d u c a t i o n S o l u t i o n s P v t . L t d Page 2
-Note: Use this color coding for all the visuals.
-Color hex codes:
-#D40400 for red
-#FFFFFF for white
-#000000 for black
-5. Show bar plot for most available content for top 5 genres by type.
-6. Show line chart for a count of released content by each year by their type.
-7. Show production country and run time for each content on the map.
-8. show the total distribution of content types using the donut chart.
-9. Create cards for the total runtime, the total count of movies and tv shows, and the
-average rating of IMDB.
-10. Add slicer for genres, release year, and title.
-11.Add the Netflix logo and a little introduction to Netflix (use text box).
-Note: sample of dashboard.
- -->
-?
