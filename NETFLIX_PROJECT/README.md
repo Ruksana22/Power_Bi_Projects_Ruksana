@@ -222,7 +222,7 @@ In the initial data preparation phase, I performed the following tasks:
 # Dashboard Design and Creation
 
 With the processed data, I created a Netflix data analytics dashboard that presents key insights on content. The dashboard includes charts showing trends of content, count of TV shows and Movie,Around the world  providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees.
-![alt text](<Images/NETFLIX DATA VISUALITION REPORT.png>)
+![alt text](<images/NETFLIX DATA VISUALITION REPORT.png>)
 
 # Insights
 Creating a **Netflix Data Analytics Power BI project** can provide insightful findings into user behavior, content performance, genre trends, and more. Here’s a summary of what such a project can include and the **key findings** you might highlight.
