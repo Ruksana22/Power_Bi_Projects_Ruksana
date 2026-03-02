@@ -222,6 +222,7 @@ In the initial data preparation phase, I performed the following tasks:
 # Dashboard Design and Creation
 
 With the processed data, I created a Netflix data analytics dashboard that presents key insights on content. The dashboard includes charts showing trends of content, count of TV shows and Movie,Around the world  providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees.
+
 ![alt text](<images/NETFLIX DATA VISUALITION REPORT.png>)
 
 # Insights
