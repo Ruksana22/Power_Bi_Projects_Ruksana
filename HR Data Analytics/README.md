@@ -35,6 +35,12 @@ In the initial data preparation phase, I performed the following tasks:
 # Dashboard Design and Creation
 
 With the processed data, I created a HR analytics dashboard that presents key insights on employee attrition. The dashboard includes charts showing attrition rates by age-group, job type, region ,salary providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees by region and age group. I created two dashboard here for to make a compettative analysis: 
+ The dashboard includes the following visualizations:
+    •	Active Employee by Age group: Bar Chart
+    •	Active Employee by Region & Age Group: Column Chart
+    •	New Hires by Region & Job Type: Line Chart
+    •	Active Employee by Age group: Bar Chart
+    •	Seperation By Region & Age Group
 Power BI Dashboard-1
 ![alt text](Images/Power_bi_HR_Data_dashboard_HR1.png)
 Power BI Dashboard-2
@@ -48,13 +54,11 @@ Power BI Dashboard-2
     •	Dashboard Design: Create a detailed monthly HR dashboard with Power BI.
     •	Using Card Visuals: Work with the "NEW" card visual to highlight specific metrics.
     •	The project addresses the following analysis themes:
-    •	Job Count Analysis: Determine how many people are employed in each job role.
-    •	Gender Breakdown: Analyze the gender distribution among the staff.
+    •	Active Employee Count Analysis: Determine how many people are employed in each region
+    •	Gender Breakdown: Analyze the gender distribution among the employess
     •	Age Distribution: Examine the age spread of the employees.
-    •	Salary Analysis: Identify which job roles have higher salaries.
-    •	Top Earners: Find the top earners within each job role.
-    
 
+ 
 # Insights
 
 # 1. Employee Statistics
@@ -69,21 +73,7 @@ Power BI Dashboard-2
     •   New Hire employee 17.18 K
         • Male: 9.02 K employee
         • Female: 8.16 K employee
-
    
-Would you like a sample Excel or Power BI mock-up based on this structure?
-    Female Employees Aged 30:
-    •	Number of Employees: 44
-    •	Significance: This is the highest number of female employees in a single age group.
-    Male Employees Aged 30:
-    •	Number of Employees: 41
-    •	Significance: This is the highest number of male employees in a single age group.
-    # 2. Average Tenure Month by Region and Age group:
-    Highest Number of Employees by Role:
-    •	Packaging Associate: 22 employees Note: This role has the more number of employees compared to others.
-    Lowest Number of Employees by Role:
-    •	Marketing Manager: 10 employees
-    •	Marketing Specialist: 10 employees Note: These roles have the less number of employees.
 # 3. Actives employee By Region and Job Type:
     Actives for Part-Time (8586.00) was higher than Full-Time (4894.00).  Part-Time accounted for 95.43% of Male New Hires. 
     Actives for Hourly and Salaried diverged the most when the AgeGroup was <30, when Hourly were 5319.00 higher than Salaried.
@@ -93,22 +83,9 @@ Would you like a sample Excel or Power BI mock-up based on this structure?
     Total New Hires was higher for Part-Time (16244.00) than Full-Time (931). 
     Average New Hires was higher for Part-Time (2,707.33) than Full-Time (155.17).
 
-    Overall Salary Metrics:
-    •	Average Salary: $54,231
-    •	Minimum Salary: $28,900
-   
-
-    The dashboard includes the following visualizations:
-    •	Employee count per job title: Bar Chart
-    •	Employee percentage by gender: Pie Chart
-    •	Employee count per year: Line Chart
-    •	Employee count by age and gender: Coloumn Chart
-    •	Maximum Salary Based on Educational Qualification: Scatter Chart
-    •	Headcount, Average Salary, Average Leave Balance and Leave Balance more than 20 days: Card
  # 5. Separation By Region and AgeGroup:
         Separations for Part-Time and Full-Time diverged the most when the Region was West, when Part-Time were 2120.00 higher than Full-Time.
         Male Separations and Female Separationss diverged the most when the Job type was Part-Time, when Male Separations were 668.00 higher than Female Separations.
-
 
 # Insights
 The Analysis results are summarized as follows:
