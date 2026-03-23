@@ -37,13 +37,16 @@ In the initial data preparation phase, I performed the following tasks:
 With the processed data, I created a HR analytics dashboard that presents key insights on employee attrition. The dashboard includes charts showing attrition rates by age-group, job type, region ,salary providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees by region and age group. I created two dashboard here for to make a compettative analysis: 
 
 The dashboard includes the following visualizations:
-    •	Active Employee by Age group: Bar Chart
-    •	Active Employee by Region & Age Group: Column Chart
-    •	New Hires by Region & Job Type: Line Chart
-    •	Active Employee by Age group: Bar Chart
-    •	Seperation By Region & Age Group
+
+    •	Active Employee by Age group: Bar Chart.
+    •	Active Employee by Region & Age Group: Column Chart.
+    •	New Hires by Region & Job Type: Line Chart.
+    •	Active Employee by Age group: Bar Chart.
+    •	Seperation By Region & Age Group.
+
 Power BI Dashboard-1
 ![alt text](Images/Power_bi_HR_Data_dashboard_HR1.png)
+
 Power BI Dashboard-2
 ![alt text](Images/Power_bi_HR_Data_dashboard_HR2.png)
 
