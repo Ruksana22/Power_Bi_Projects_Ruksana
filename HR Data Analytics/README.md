@@ -78,16 +78,16 @@ Power BI Dashboard-2
         • Male: 9.02 K employee
         • Female: 8.16 K employee
    
-# 3. Actives employee By Region and Job Type:
+# 2. Actives employee By Region and Job Type:
     Actives for Part-Time (8586.00) was higher than Full-Time (4894.00).  Part-Time accounted for 95.43% of Male New Hires. 
     Actives for Hourly and Salaried diverged the most when the AgeGroup was <30, when Hourly were 5319.00 higher than Salaried.
 
-# 4. New Hires By Region and Job Type:
+# 3. New Hires By Region and Job Type:
      Male New Hires and Female New Hires diverged the most when the Job type was Part-Time, when Male New Hires were 966.00 higher than Female New Hires. 
     Total New Hires was higher for Part-Time (16244.00) than Full-Time (931). 
     Average New Hires was higher for Part-Time (2,707.33) than Full-Time (155.17).
 
- # 5. Separation By Region and AgeGroup:
+ # 4. Separation By Region and AgeGroup:
         Separations for Part-Time and Full-Time diverged the most when the Region was West, when Part-Time were 2120.00 higher than Full-Time.
         Male Separations and Female Separationss diverged the most when the Job type was Part-Time, when Male Separations were 668.00 higher than Female Separations.
 
