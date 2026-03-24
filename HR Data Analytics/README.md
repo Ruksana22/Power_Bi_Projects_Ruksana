@@ -1,16 +1,39 @@
-# Power_Bi_Projects_Ruksana
 # Problem Statement
-Market fluctuations and rapid technological advancements have significantly impacted the global market. Numerous reports indicate that approximately half of employees are considering changing jobs. While many market analysts highlight flexible working arrangements and job security as the key factors, only a few employees cite higher salaries as their primary goal.
-Across various regions, salary trends have shown both increases and decreases over the years. Salary hikes were mainly intended to retain top-level professionals, while salary cuts were implemented due to market fluctuations but were reversed once market conditions improved. HR professionals worldwide are focused on recruiting new talent, retaining existing employees, and understanding the reasons behind employee separations.
+    Market fluctuations and rapid technological advancements have significantly impacted the global market. Numerous reports indicate that approximately half of employees are considering changing jobs. While many market analysts highlight flexible working arrangements and job security as the key factors, only a few employees cite higher salaries as their primary goal.
+    Across various regions, salary trends have shown both increases and decreases over the years. Salary hikes were mainly intended to retain top-level professionals, while salary cuts were implemented due to market fluctuations but were reversed once market conditions improved. HR professionals worldwide are focused on recruiting new talent, retaining existing employees, and understanding the reasons behind employee separations.
 
 # Tools
-Tools used for Data Cleaning, Data Analysis and Report generation:
+    Tools used for Data Cleaning, Data Analysis and Report generation:
 
     •	Excel
     •	PowerBI
-  
+
+# Workflow of this project:
+
+    Here's a comprehensive outline for a HR Data Analytics Power BI Project including:
+    - Exploratory Data Analysis (EDA)
+    - Insights and Findings
+    - Trends
+    - Recommendations
+
+# Exploratory Data Analysis
+
+    EDA involved exploring the HR data to answer key questions, such as:
+    •	What are the recruitment trends?
+    •	What are New Hires, Retention and Separation trends?
+    •	What are Male, and Female staff with age groups that have been retained over the years in every region?
+    Actives by job time (part and full time), seperation by age-group type, region-type, job type  
+    •	Loading and Cleaning Data: Import data into Power BI and use Power Query to clean and prepare it.
+    •	Creating HR Metrics: Calculate essential HR metrics such as headcount, average leave balance, and average salary using  Power Pivot.
+    •	Dashboard Design: Create a detailed monthly HR dashboard with Power BI.
+    •	Using Card Visuals: Work with the "NEW" card visual to highlight specific metrics.
+    •	The project addresses the following analysis themes:
+    •	Active Employee Count Analysis: Determine how many people are employed in each region.
+    •	Gender Breakdown: Analyze the gender distribution among the employess.
+    •	Age Distribution: Examine the age spread of the employees.
+
 # Data Cleaning
-In the initial data preparation phase, I performed the following tasks:
+    In the initial data preparation phase, I performed the following tasks:
 
     •	Data loading and inspection
     •	Changing data types
@@ -24,20 +47,11 @@ In the initial data preparation phase, I performed the following tasks:
     •	Managing Relationships between different tables.
 ![alt text](Images/Power_bi_HR_Data_Model_view.png)
 
-# Exploratory Data Analysis
-
-    EDA involved exploring the HR data to answer key questions, such as:
-    •	What are the recruitment trends?
-    •	What are New Hires, Retention and Separation trends?
-    •	What are Male, and Female staff with age groups that have been retained over the years in every region?
-    Actives by job time (part and full time), seperation by age-group type, region-type, job type
-
 # Dashboard Design and Creation
 
-With the processed data, I created a HR analytics dashboard that presents key insights on employee attrition. The dashboard includes charts showing attrition rates by age-group, job type, region ,salary providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees by region and age group. I created two dashboard here for to make a compettative analysis: 
+    With the processed data, I created a HR analytics dashboard that presents key insights on employee attrition. The dashboard includes charts showing attrition rates by age-group, job type, region ,salary providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees by region and age group. I created two dashboard here for to make a compettative analysis: 
 
-The dashboard includes the following visualizations:
-
+    The dashboard includes the following visualizations:
     •	Active Employee by Age group: Bar Chart.
     •	Active Employee by Region & Age Group: Column Chart.
     •	New Hires by Region & Job Type: Line Chart.
@@ -50,20 +64,7 @@ Power BI Dashboard-1
 Power BI Dashboard-2
 ![alt text](Images/Power_bi_HR_Data_dashboard_HR2.png)
 
-
-# Things done in this project:
-
-    •	Loading and Cleaning Data: Import data into Power BI and use Power Query to clean and prepare it.
-    •	Creating HR Metrics: Calculate essential HR metrics such as headcount, average leave balance, and average salary using Power Pivot.
-    •	Dashboard Design: Create a detailed monthly HR dashboard with Power BI.
-    •	Using Card Visuals: Work with the "NEW" card visual to highlight specific metrics.
-    •	The project addresses the following analysis themes:
-    •	Active Employee Count Analysis: Determine how many people are employed in each region
-    •	Gender Breakdown: Analyze the gender distribution among the employess
-    •	Age Distribution: Examine the age spread of the employees.
-
- 
-# Insights
+# Gained Insights
 
 # 1. Employee Statistics
     Employee Statistics
@@ -88,11 +89,10 @@ Power BI Dashboard-2
     Average New Hires was higher for Part-Time (2,707.33) than Full-Time (155.17).
 
  # 4. Separation By Region and AgeGroup:
-        Separations for Part-Time and Full-Time diverged the most when the Region was West, when Part-Time were 2120.00 higher than Full-Time.
-        Male Separations and Female Separationss diverged the most when the Job type was Part-Time, when Male Separations were 668.00 higher than Female Separations.
+    Separations for Part-Time and Full-Time diverged the most when the Region was West, when Part-Time were 2120.00 higher than Full-Time.
+    Male Separations and Female Separationss diverged the most when the Job type was Part-Time, when Male Separations were 668.00 higher than Female Separations.
 
-# Insights
-The Analysis results are summarized as follows:
+    The Analysis results are summarized as follows:
     •	The company has over 13k employees, Male staff is around 57% and Female staff is 43%.
     •	Over the past few years, from 2011 till 2014, 11.76K employees have left jobs and noticeably Male staff is higher % as compared to Female staff members.
     •	The New Hires trend is upward every year with 17.18K new hires from 2011 till 2014.
@@ -103,8 +103,6 @@ The Analysis results are summarized as follows:
     Based on the analysis, I recommend the following actions:
     •	The company must focus on West and North regions for employee retention. Management can look into deploying some new measures, programs, perks or benefits for existing employees to ensure they will not leave the company.
     •	Implement a strategy to retain talented employees who will be an asset to a company.
-  
-# Conclusion
-The workforce has grown significantly from 2017 to 2023, reflecting the company’s expansion. There is a higher number of female employees compared to males, with notable role variations, Packaging Associates being the largest group and Marketing roles the smallest. Employees aged 30 are the largest age group for both genders. Salary analysis shows that Product Managers earn the highest salaries, while Packaging Associates receive the lowest. Educational qualifications affect salary levels, with Master’s degree holders earning the most. Leave balances are generally moderate, with some employees having more than 20 days of leave. These insights highlight growth, gender imbalance, role distribution, salary disparities, and leave management within the organization.
+    These insights highlight growth, gender imbalance, role distribution, salary disparities, and leave management within the organization.
 
  
