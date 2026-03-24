@@ -20,14 +20,14 @@
 
 Convert the business problem into measurable questions:
 
-    1. Which genres are most popular globally and by country?
-    2. Do TV shows or Movies attract more content volume?
-    3. Which countries produce the most content?
-    4. What genres dominate in high-content countries?
-    5. Is there a trend of increasing content production over years?
-    6. What type of content has higher average ratings?
-    7. Do longer runtimes correlate with higher ratings?
-    8. Which countries have growing content production trends?
+        1. Which genres are most popular globally and by country?
+        2. Do TV shows or Movies attract more content volume?
+        3. Which countries produce the most content?
+        4. What genres dominate in high-content countries?
+        5. Is there a trend of increasing content production over years?
+        6. What type of content has higher average ratings?
+        7. Do longer runtimes correlate with higher ratings?
+        8. Which countries have growing content production trends?
 
 # Tools
 Tools used for Data Cleaning, Data Analysis and Report generation:
@@ -41,7 +41,7 @@ Tools used for Data Cleaning, Data Analysis and Report generation:
         - Custom tooltips for details on hover
         - KPI cards for summary statistics (total movies, total shows, top genre)
 
-Workflow of this project:
+# Workflow of this project:
 Here's a comprehensive outline for a **Netflix Data Analytics Power BI Project** including:
 
         - Exploratory Data Analysis (EDA)
@@ -50,34 +50,8 @@ Here's a comprehensive outline for a **Netflix Data Analytics Power BI Project**
         - Recommendations
         - Conclusion
 
-Netflix Data Analytics Project Using Power BI
-Data Set Column:
-Connect to the dataset and perform the following tasks for data modeling. Do an analysis of the
-dataset by cleaning and modifying the dataset, thus drawing relevant insights.
-Data Description:
-    Credits table:
-    person id: Person id.
-    Id: Team Id while working on a movie.
-    Name: Name of the person.
-    Character: The character they have played in the movie.
-    Role: Their role in making a movie.
-    Title Table:
-    Id: Team Id while working on a movie.
-    Title: Movie/web series name
-    Type: Movie/Web series
-    Release_year: The release year when the movie was released.
-    Age_certification: Certificate based on content allowed to watch by age.
-    Runtime: Total screen time of content
-    Genres: Movie type based on Action/Comedy/Scifi
-    Production_countries: Origin of content
-    Seasons: The count of sequel/prequel number of any content
-    Imdb_id: Registered ID on IMDB website
-    Imdb_score: Average rating by all users
-    Imdb_votes: The no of people has given their vote
-    Tmdb_popularity: TMDB popularity score
-    Tmdb_score: TMDB rating
+# Netflix Data Analytics Project Using Power BI (Methodology)
 
-    Task 1 (Data loading):
     The following are the tasks that need to be performed:
     1. Connect and get data from an Excel file named “1910_m4_assign_dataset_v1.0”.
     2. Open the power query editor and perform the data cleaning task.
@@ -92,59 +66,6 @@ Data Description:
     10. Add slicer for genres, release year, and title.
     11.Add the Netflix logo and a little introduction to Netflix (use text box).
     Note: sample of dashboard.
-
-1. Exploratory Data Analysis (EDA)
-
-Credits table:
-    person id: Person id.
-    Id: Team Id while working on a movie.
-    Name: Name of the person.
-    Character: The character they have played in the movie.
-    Role: Their role in making a movie.
-    Title Table:
-    Id: Team Id while working on a movie.
-    Title: Movie/web series name
-    Type: Movie/Web series
-    Release_year: The release year when the movie was released.
-    Age_certification: Certificate based on content allowed to watch by age.
-    Runtime: Total screen time of content
-    Genres: Movie type based on Action/Comedy/Scifi
-    Production_countries: Origin of content
-    Seasons: The count of sequel/prequel number of any content
-    Imdb_id: Registered ID on IMDB website
-    Imdb_score: Average rating by all users
-    Imdb_votes: The no of people has given their vote
-    Tmdb_popularity: TMDB popularity score
-    Tmdb_score: TMDB rating
-
-# Data Cleaning
-In the initial data preparation phase, I performed the following tasks:
-
-    •	Data loading and inspection,
-    •	Changing data types,
-    •	Optimizing the dataset by removing unnecessary and duplicate columns,
-    •	Standardizing abbreviations used in the dataset,
-    •	Handling missing values,
-    •	Data cleaning and formatting
-    EDA in Power BI includes:  
-        - Null/missing data checks (e.g., missing directors or cast data)
-        - Data types formatting (duration into numeric values)
-         - Date conversion for trends over time
-         - Filters for country, type, genre
-
-Initial Cleaning Tasks:
-        - Split and normalize `Genre` and `Country` fields
-        - Create new fields: `Year Added`, `Duration in minutes`, `Content Age Group`
-        - Remove duplicates and null-heavy records
-
-# Data Modeling
-
-    •	Managing Relationships between different tables.
-        Open the data model and make relationships among all tables.
-
-![alt text](<Images/NETFLIX DATA MODEL VIEW.png>)
-
-    Create measures for “total content” and “Runtime hours” formulas using DAX.
 
 # Exploratory Data Analysis
  EDA involved exploring the NetFLix data to answer key questions, such as:
@@ -165,15 +86,70 @@ Initial Cleaning Tasks:
     → (KPI Cards)
     10. How do genre, release year, and title filters impact content distribution and performance metrics?
     → (Slicers for interactive analysis)
-    
+
+
+# Data Cleaning
+In the initial data preparation phase, I performed the following tasks:
+
+    •	Data loading and inspection
+        Data Set Column:
+        Connect to the dataset and perform the following tasks for data modeling. Do an analysis of the
+        dataset by cleaning and modifying the dataset, thus drawing relevant insights.
+        Data Description:
+            Credits table:
+            person id: Person id.
+            Id: Team Id while working on a movie.
+            Name: Name of the person.
+            Character: The character they have played in the movie.
+            Role: Their role in making a movie.
+            Title Table:
+            Id: Team Id while working on a movie.
+            Title: Movie/web series name
+            Type: Movie/Web series
+            Release_year: The release year when the movie was released.
+            Age_certification: Certificate based on content allowed to watch by age.
+            Runtime: Total screen time of content
+            Genres: Movie type based on Action/Comedy/Scifi
+            Production_countries: Origin of content
+            Seasons: The count of sequel/prequel number of any content
+            Imdb_id: Registered ID on IMDB website
+            Imdb_score: Average rating by all users
+            Imdb_votes: The no of people has given their vote
+            Tmdb_popularity: TMDB popularity score
+            Tmdb_score: TMDB rating
+
+            •	Changing data types
+            •	Optimizing the dataset by removing unnecessary and duplicate columns,
+            •	Standardizing abbreviations used in the dataset,
+            •	Handling missing values,
+            •	Data cleaning and formatting
+            EDA in Power BI includes:  
+                - Null/missing data checks (e.g., missing directors or cast data)
+                - Data types formatting (duration into numeric values)
+                - Date conversion for trends over time
+                - Filters for country, type, genre
+
+        Initial Cleaning Tasks:
+                - Split and normalize `Genre` and `Country` fields
+                - Create new fields: `Year Added`, `Duration in minutes`, `Content Age Group`
+                - Remove duplicates and null-heavy records
+
+# Data Modeling
+
+    •	Managing Relationships between different tables.
+        Open the data model and make relationships among all tables.
+
+![alt text](<Images/NETFLIX DATA MODEL VIEW.png>)
+
 # Dashboard Design and Creation
 
-With the processed data, I created a Netflix data analytics dashboard that presents key insights on content. The dashboard includes charts showing trends of content, count of TV shows and Movie,Around the world  providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees.
+    With the processed data, I created a Netflix data analytics dashboard that presents key insights on content. The dashboard includes charts showing trends of content, count of TV shows and Movie,Around the world  providing a comprehensive view of factors contributing to attrition within the company. These visualizations can help inform HR decision-making and guide targeted efforts to reduce attrition and retain valuable employees.
 
 ![alt text](<Images/NETFLIX DATA VISUALITION REPORT.png>)
 
 # Insights
-Creating a **Netflix Data Analytics Power BI project** can provide insightful findings into user behavior, content performance, genre trends, and more. Here’s a summary of what such a project can include and the **key findings** you might highlight.
+
+    Creating a **Netflix Data Analytics Power BI project** can provide insightful findings into user behavior, content performance, genre trends, and more. Here’s a summary of what such a project can include and the **key findings** you might highlight.
 
 🎯 Netflix Data Analytics Power BI Project: Key Insights & Findings
 
@@ -185,7 +161,6 @@ Creating a **Netflix Data Analytics Power BI project** can provide insightful fi
  2. Content Type Distribution
     Movies vs. TV Shows: Pie chart show the ratio.
     Finding: Movies make up around 80% of the Netflix catalog; TV shows comprise 20%.
-
 
 3. Content Release Trend Over Time
     *Year-wise content additions*: Line graph shows new content released each year.
@@ -224,10 +199,10 @@ Creating a **Netflix Data Analytics Power BI project** can provide insightful fi
 
 # Trends Observed
 
-Yearly Content Growth: Spike from 2016–2019 as Netflix pushed Originals.
-Localized Content Growth: Increase in India, South Korea, Spain — tied to international audience growth.
-Content Length Trends: Surge in shorter, binge-able formats (30–50 min shows and under-90 min films).
-Genre Popularity: Comedy, Documentary, Thriller consistently perform well.
+    Yearly Content Growth: Spike from 2016–2019 as Netflix pushed Originals.
+    Localized Content Growth: Increase in India, South Korea, Spain — tied to international audience growth.
+    Content Length Trends: Surge in shorter, binge-able formats (30–50 min shows and under-90 min films).
+    Genre Popularity: Comedy, Documentary, Thriller consistently perform well.
 
 # Recommendations
 
@@ -245,9 +220,9 @@ For Netflix:
     4. Expand in Emerging Markets  Produce localized content in: India, South Korea, Spain, Brazil
 
 # Conclusion
-To improve business, it is required that the Netflix should focus on the top 10 countries which produces 77% of the total movies and tv shows as per the audience preferences. This is the area from where the maximum business can flow in.
+    To improve business, it is required that the Netflix should focus on the top 10 countries which produces 77% of the total movies and tv shows as per the audience preferences. This is the area from where the maximum business can flow in.
 
-- Netflix’s content strategy has leaned heavily into mature, U.S.-centric content, with a rapid increase in original productions between 2016–2020.
-- Power BI visualizations clearly highlight opportunities in regional content, family-friendly programming, and genre diversification.
-- With international expansion and audience segmentation, Netflix can further personalize offerings and optimize its global content strategy using data.
+    - Netflix’s content strategy has leaned heavily into mature, U.S.-centric content, with a rapid increase in original productions between 2016–2020.
+    - Power BI visualizations clearly highlight opportunities in regional content, family-friendly programming, and genre diversification.
+    - With international expansion and audience segmentation, Netflix can further personalize offerings and optimize its global content strategy using data.
 
