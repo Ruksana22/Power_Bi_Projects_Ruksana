@@ -80,7 +80,7 @@ Creating a **Superstore Sales Data Analytics Power BI project** can provide insi
 
 
 # Key Insights
-- Total Sales: $62.27M | Total Profit: $1.51M | Profit Ratio: 2.42|Sum of Quantity: 180K|MTD Profit: 504.17K| QTD Profit: 167.98K
+- Total Sales: $62.27M | Total Profit: $1.51M | Profit Ratio: 2.42|Sum of Quantity: 180K|YTD Profit: 504.17K| QTD Profit: 167.98K
 - Top Product by Profit: Newwell 330 ($618.21) which is under sub-category Art| Lowest: Bevis Round Tables 42 ($0.92)
 - **Category Performance**: Technology  generates the highest revenue ($177,215.44), but Office Supplies has the best balance between revenue ($169,664.66)
 -  and profit ($30,517.34).
