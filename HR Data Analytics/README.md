@@ -1,7 +1,11 @@
 # Problem Statement
     Market fluctuations and rapid technological advancements have significantly impacted the global market. Numerous reports indicate that approximately half of employees are considering changing jobs. While many market analysts highlight flexible working arrangements and job security as the key factors, only a few employees cite higher salaries as their primary goal.
     Across various regions, salary trends have shown both increases and decreases over the years. Salary hikes were mainly intended to retain top-level professionals, while salary cuts were implemented due to market fluctuations but were reversed once market conditions improved. HR professionals worldwide are focused on recruiting new talent, retaining existing employees, and understanding the reasons behind employee separations.
-
+# Key BUSINESS PROBLEM
+    • High employee turnover, especially in the West and North regions.
+    • Heavy reliance on part-time and younger employees, impacting workforce stability.
+    • Gender imbalances in hiring and separations, particularly in part-time roles.
+    • Lack of clear insight into workforce distribution across age, region, and job type, making strategic HR planning challenging
 # Tools
     Tools used for Data Cleaning, Data Analysis and Report generation:
 
@@ -64,7 +68,7 @@ Power BI Dashboard-1
 Power BI Dashboard-2
 ![alt text](Images/Power_bi_HR_Data_dashboard_HR2.png)
 
-# Gained Insights
+# Key Findings
 
 # 1. Employee Statistics
     Employee Statistics
@@ -94,15 +98,19 @@ Power BI Dashboard-2
 
     The Analysis results are summarized as follows:
     •	The company has over 13k employees, Male staff is around 57% and Female staff is 43%.
-    •	Over the past few years, from 2011 till 2014, 11.76K employees have left jobs and noticeably Male staff is higher % as compared to Female staff members.
-    •	The New Hires trend is upward every year with 17.18K new hires from 2011 till 2014.
-    •	Age group of 30 and less are more compared to 30+ employees. Noticeably, new hires under the age of 30 are working as part-time jobs and in West and North regions.
-    •	Employee retention is less in the West and North regions considering these regions have higher recruitment compared to all other regions.
+        Workforce Composition: 13.48K active employees; 57% male, 43% female.
+    • Attrition: 11.76K separations (2011–2014), with higher male turnover, mostly in part-time roles.
+    • Hiring: 17.18K new hires show upward trends, dominated by part-time positions, especially in younger age groups (<30) in West and North regions.
+    • Regional Insights: West and North regions have high recruitment but low retention, indicating retention challenges.
+    • Age & Job Type: Younger employees dominate part-time roles; senior employees are underrepresented.
+    • Gender Gaps: Male new hires and separations exceed females, particularly in part-time jobs.
 
 # Recommendations
-    Based on the analysis, I recommend the following actions:
-    •	The company must focus on West and North regions for employee retention. Management can look into deploying some new measures, programs, perks or benefits for existing employees to ensure they will not leave the company.
-    •	Implement a strategy to retain talented employees who will be an asset to a company.
-    These insights highlight growth, gender imbalance, role distribution, salary disparities, and leave management within the organization.
+    1. Improve Retention: Focus on West and North regions with engagement programs, career growth, and benefits.
+    2. Balance Employment Types: Increase full-time hiring to reduce reliance on part-time workers.
+    3. Address Gender Imbalance: Promote female hiring and retention, especially in part-time roles.
+    4. Support Younger Employees: Implement training, mentoring, and career pathways for employees under 30.
+    5. Data-Driven Planning: Use insights to anticipate attrition and plan recruitment by region, age group, and job type.
+
 
  
