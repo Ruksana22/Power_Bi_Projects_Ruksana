@@ -16,18 +16,13 @@
         * Customer retention
         * Market expansion in high-growth countries   
 
-# Key Analytical Questions
+# Key BUSINESS QUESTIONS
 
-Convert the business problem into measurable questions:
-
-        1. Which genres are most popular globally and by country?
-        2. Do TV shows or Movies attract more content volume?
-        3. Which countries produce the most content?
-        4. What genres dominate in high-content countries?
-        5. Is there a trend of increasing content production over years?
-        6. What type of content has higher average ratings?
-        7. Do longer runtimes correlate with higher ratings?
-        8. Which countries have growing content production trends?
+    1. Which genres are most popular globally and by country?
+    2. Do TV shows or Movies attract more content volume over the years?
+    3. Which countries produce the most content?
+    4. What genres dominate in high-content countries?
+    5. Is there a trend of increasing content production over years?
 
 # Tools
 Tools used for Data Cleaning, Data Analysis and Report generation:
@@ -151,78 +146,21 @@ In the initial data preparation phase, I performed the following tasks:
 
     Creating a **Netflix Data Analytics Power BI project** can provide insightful findings into user behavior, content performance, genre trends, and more. Here’s a summary of what such a project can include and the **key findings** you might highlight.
 
-🎯 Netflix Data Analytics Power BI Project: Key Insights & Findings
-
- 1. Genre Popularity
-    Top Genres: Comedy,Drama, and Documentaries tend to dominate the Netflix catalog.
-    Genre Distribution: Visualization shows how different genres perform across countries.
-    Finding: Over 60% of Netflix content is concentrated in less than 4 genres.
-
- 2. Content Type Distribution
-    Movies vs. TV Shows: Pie chart show the ratio.
-    Finding: Movies make up around 80% of the Netflix catalog; TV shows comprise 20%.
-
-3. Content Release Trend Over Time
-    *Year-wise content additions*: Line graph shows new content released each year.
-    *Finding*: Major surge in content releases around 2017–2019 due to original content push.
-
-4. Country-wise Content Distribution
-    Heatmaps:  show the number of shows per country.
-    Finding*: The U.S., India, and the UK are among the top countries with most content produced or available.
-  
- 6. Duration & Runtime Insights
-    Average movie length: Visualizations of distribution of movie durations.
-    Finding: Most movies range between 80–120 minutes; very few are over 2.5 hours.
-
 # Key Findings
 
-🔹 Content Type Distribution
-    - 69% Movies, 31% TV Shows
-    - Movies dominate, but TV shows have increased in recent years
-
-🔹 Genre Insights
-    - Top genres:  Comedy, Drama, Documentary, Action
-    - Kids & Family content strong in U.S., India, and Canada
-
-🔹 Country Distribution
-    - U.S. has the highest number of titles (~32%)
-    - India and UK follow, especially in TV Shows and regional dramas
-
-🔹 Duration Analysis (Movies)
-    - Most movies fall between 80–120 minutes
-    - Short films and stand-up specials under 60 minutes increasing
-
-🔹 Release Trends
-    - Peak content addition years: 2018–2020
-    - Sharp drop post-2020, likely due to pandemic
+    1. Genres: Comedy, Drama, and Documentaries dominate; over 60% of content is concentrated in a few genres
+    2. Movies make up ~80% of the catalog; TV shows ~20%.
+    3. Major growth in content additions occurred between 2017–2019.
+    4. The U.S., India, and the UK lead in content production/availability.
+    5. Most movies are 80–120 minutes; very few exceed 2.5 hours.
 
 
-# Trends Observed
+# Recommandation
 
-    Yearly Content Growth: Spike from 2016–2019 as Netflix pushed Originals.
-    Localized Content Growth: Increase in India, South Korea, Spain — tied to international audience growth.
-    Content Length Trends: Surge in shorter, binge-able formats (30–50 min shows and under-90 min films).
-    Genre Popularity: Comedy, Documentary, Thriller consistently perform well.
+    1. Invest more in underrepresented genres (e.g., sci-fi, thriller, animation) to reduce over-reliance on a few categories.
+    2. Expand series content to boost engagement and retention (binge-watching behavior).
+    3. Continue investing in high-performing markets (India, UK) while expanding into emerging regions.
+    4. Maintain the 80–120 minute range, as it aligns with viewer preferences.
+    5. Replicate the 2017–2019 strategy by periodically increasing original, high-quality releases to drive growth.
 
-# Recommendations
-
-For Netflix:
-    1. Invest More in International Originals 
-   Countries like India, South Korea, and Spain show high growth and engagement.
-
-    2. Diversify Genres in TV Shows
-    While Movies show genre diversity, TV Shows are overly skewed toward Drama.
-    Expand Drama, Comedy, and Thriller content Focus on TV Series for Retention
-    Develop multi-season content Invest in binge-worthy series
-
-    3. Use Data to Guide Binge-Worthy Series Shows with shorter episodes and seasons can boost watch time and retention.
-
-    4. Expand in Emerging Markets  Produce localized content in: India, South Korea, Spain, Brazil
-
-# Conclusion
-    To improve business, it is required that the Netflix should focus on the top 10 countries which produces 77% of the total movies and tv shows as per the audience preferences. This is the area from where the maximum business can flow in.
-
-    - Netflix’s content strategy has leaned heavily into mature, U.S.-centric content, with a rapid increase in original productions between 2016–2020.
-    - Power BI visualizations clearly highlight opportunities in regional content, family-friendly programming, and genre diversification.
-    - With international expansion and audience segmentation, Netflix can further personalize offerings and optimize its global content strategy using data.
 
