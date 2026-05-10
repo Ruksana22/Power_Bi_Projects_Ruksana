@@ -59,10 +59,8 @@ In the initial data preparation phase, I performed the following tasks:
 
 # Data Modeling
 Data Transformation: Using Power Query to clean and prepare the data. This involves removing unnecessary columns and ensuring proper data types for accurate analysis.
-    •	Managing Relationships between different tables.
+    •	Managing Relationships between different tables records.
 ![alt text](<Images/Superstore_data_modeling.png>)
-records
-
   
 # Dashboard Design and Creation
 
@@ -115,7 +113,7 @@ records
 
 ## 4. Category & Sub-Category Issues
 
-    Loss-making sub-categories commonly include:
+Loss-making sub-categories commonly include:
 
         * Tables
         * Bookcases
@@ -147,7 +145,6 @@ records
 👉 Insight: Trade-off between cost efficiency and service level
 
 ---
-
 
 #  Recommendations
 
@@ -194,7 +191,7 @@ records
 
 ## 6. Data-Driven Decision Making
 
-* Implement dashboards to track:
+Implement dashboards to track:
 
     * Profit by category
     * Discount impact
@@ -226,11 +223,11 @@ Shipping Mode Analysis:
 Category Analysis:
     Technology topped product categories, followed by Furniture and Office Supplies (41.11%). 
 
- Market Wise Sales Analysis:
+Market Wise Sales Analysis:
     Regionally, Europe generated the highest profit (449K), while Asia Pacific led in sales (20.2M, 30.92%).
     
 # Conclusion:
-The findings presented in this report provide valuable insights into various aspects of our business. By analyzing payment modes, regions, customer segments, sales performance, profitability, shipping modes, product categories and state-wise sales, we can make informed decisions and formulate strategies to optimize operations, drive growth, and enhance profitability. It is crucial to continue monitoring these metrics, conduct further analysis, and adapt our strategies based on evolving customer preferences and market dynamics. By leveraging these insights effectively, we can stay ahead of the competition and deliver exceptional value to our customer.
+    The findings presented in this report provide valuable insights into various aspects of our business. By analyzing payment modes, regions, customer segments, sales performance, profitability, shipping modes, product categories and state-wise sales, we can make informed decisions and formulate strategies to optimize operations, drive growth, and enhance profitability. It is crucial to continue monitoring these metrics, conduct further analysis, and adapt our strategies based on evolving customer preferences and market dynamics. By leveraging these insights effectively, we can stay ahead of the competition and deliver exceptional value to our customer.
 
  
 
