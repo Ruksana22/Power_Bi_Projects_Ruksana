@@ -24,6 +24,7 @@ Tools used for Data Cleaning, Data Analysis and Report generation:
         - Custom tooltips for details on hover
         - KPI cards for summary statistics
 
+# Workflow for Superstore Sales Data Analytics Project Using Power BI
 Here's a comprehensive outline for a ** Superstore Sales Data Analytics Power BI Project** including:
 
     - Exploratory Data Analysis (EDA)
@@ -31,8 +32,6 @@ Here's a comprehensive outline for a ** Superstore Sales Data Analytics Power BI
     - Trends
     - Recommendations
     - Conclusion
-
-# Workflow for Superstore Sales Data Analytics Project Using Power BI**
 
 # Exploratory Data Analysis (EDA)
 
@@ -43,9 +42,9 @@ EDA in Power BI includes:
     - Filters for Market, Year, Month
 
 Initial Cleaning Tasks:
-- Split and normalize 
-- Create new fields:
-- Remove duplicates and null-heavy 
+    - Split and normalize 
+    - Create new fields:
+    - Remove duplicates and null-heavy 
 
 # Data Cleaning
 Data Import: Importing CSV files into Power BI and connecting them to create a dataset for analysis
@@ -123,9 +122,9 @@ records
         * Supplies
 * High-performing sub-categories:
 
-    * Copiers
-    * Phones
-    * Accessories
+        * Copiers
+        * Phones
+        * Accessories
 
 👉 Insight: Product portfolio has clear winners and losers
 
@@ -170,12 +169,11 @@ records
 
 ## 3. Regional Strategy Adjustment
 
-* Investigate why Central region underperforms:
-
-  * Higher shipping costs?
-  * Pricing issues?
-  * Customer mix?
-* Replicate best practices from profitable regions
+    * Investigate why Central region underperforms:
+    * Higher shipping costs?
+    * Pricing issues?
+    * Customer mix?
+    * Replicate best practices from profitable regions
 
 ---
 
