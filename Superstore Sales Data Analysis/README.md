@@ -204,7 +204,12 @@ records
 ---
 
 # Executive Summary:
-    This report presents a comprehensive analysis of key findings derived from our business data. By examining payment modes, regions, customer segments, sales performance, profitability, shipping modes, product categories, sales forecast, and state-wise sales, we have gained valuable insights that can guide our business decisions and strategies. These findings shed light on customer preferences, market dynamics, and areas of opportunity. By leveraging these insights, we can optimize our operations, drive sales growth, and enhance profitability.
+    This report presents a comprehensive analysis of key findings derived from our business data. 
+    By examining payment modes, regions, customer segments, sales performance, profitability, shipping modes, 
+    product categories, sales forecast, and state-wise sales, we have gained valuable insights that can guide
+    our business decisions and strategies. These findings shed light on customer preferences, market dynamics,
+    and areas of opportunity. By leveraging these insights, we can optimize our operations, drive sales growth,
+    and enhance profitability.
 
 Segment Analysis:
     The Consumer segment was the top contributor to sales, accounting for 51.5% of the total sum 32.1 M. To capitalize on this segment's potential, we should implement personalized marketing campaigns, loyalty programs, and customer retention initiatives. 
