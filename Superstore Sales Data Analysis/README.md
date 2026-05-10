@@ -113,16 +113,17 @@ Data Transformation: Using Power Query to clean and prepare the data. This invol
 
 ## 4. Category & Sub-Category Issues
 
-Loss-making sub-categories commonly include:
+* Loss-making sub-categories commonly include:
 
-        * Tables
-        * Bookcases
-        * Supplies
+    * Tables
+    * Bookcases
+    * Supplies
+    
 * High-performing sub-categories:
 
-        * Copiers
-        * Phones
-        * Accessories
+    * Copiers
+    * Phones
+    * Accessories
 
 👉 Insight: Product portfolio has clear winners and losers
 
